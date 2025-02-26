@@ -39,8 +39,7 @@ L'objectiu és crear una API REST que respongui a diferents peticions HTTP.
 - Afegir:
     ```sh
   server.port=9000
-  
-   
+---
 ## ▶️ Execució
 **Executar l'aplicació amb Maven:**
 ```sh
