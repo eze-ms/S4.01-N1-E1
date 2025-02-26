@@ -34,10 +34,18 @@ L'objectiu és crear una API REST que respongui a diferents peticions HTTP.
     ```sh
    mvn compile
    
+3. **Configuració del port:**
+- Editar src/main/resources/application.properties
+- Afegir:
+    ```sh
+  server.port=9000
+  
+   
 ## ▶️ Execució
 **Executar l'aplicació amb Maven:**
-    ```sh
-    mvn spring-boot:run
+```sh
+mvn spring-boot:run
+```
 
 **Obrir el navegador i provar els endpoints:**
 - http://localhost:9000/HelloWorld
