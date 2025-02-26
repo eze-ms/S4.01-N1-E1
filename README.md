@@ -54,7 +54,6 @@ L'objectiu és crear una API REST que respongui a diferents peticions HTTP.
     ```sh
    java -jar target/S04T01N01-0.0.1-SNAPSHOT.jar
 
-```
 ---
 © 2025. Proyecto desarrollado por Ezequiel Macchi Seoane
    
