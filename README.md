@@ -7,8 +7,8 @@ L'objectiu és crear una API REST que respongui a diferents peticions HTTP.
 ---
 
 ## 💻 Tecnologies Utilitzades
-- Java 17+
-- Spring Boot (versió estable)
+- Java 23
+- Spring Boot 3.4.3
 - Maven
 - Spring Web
 - Spring Boot DevTools
@@ -18,7 +18,7 @@ L'objectiu és crear una API REST que respongui a diferents peticions HTTP.
 ---
 
 ## 📋 Requisits
-- Instal·lar **Java 11 o superior**
+- Instal·lar **Java 23**
 - Instal·lar **Maven** (`mvn -v` per a comprovar)
 - IDE compatible (IntelliJ IDEA, Eclipse)
 - Connexió a Internet per descarregar dependències
@@ -46,11 +46,15 @@ L'objectiu és crear una API REST que respongui a diferents peticions HTTP.
 mvn spring-boot:run
 ```
 
-**Obrir el navegador i provar els endpoints:**
+**Obrir el navegador o Postman i provar els endpoints:**
 - http://localhost:9000/HelloWorld
-- http://localhost:9000/HelloWorld?nom=Joan
 - http://localhost:9000/HelloWorld2
+- http://localhost:9000/HelloWorld?name=Joan
 - http://localhost:9000/HelloWorld2/Maria
+
+**Provar el Maneig d'Errors (CustomException)**
+- http://localhost:9000/HelloWorld?name=error
+- http://localhost:9000/HelloWorld2/error
 
 ## 🌐 Desplegament
 1. **Empaquetar el projecte en .jar:**
