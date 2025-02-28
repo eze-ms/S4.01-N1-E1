@@ -49,8 +49,8 @@ mvn spring-boot:run
 **Obrir el navegador o Postman i provar els endpoints:**
 - http://localhost:9000/HelloWorld
 - http://localhost:9000/HelloWorld2
-- http://localhost:9000/HelloWorld?name=Joan
-- http://localhost:9000/HelloWorld2/Maria
+- http://localhost:9000/HelloWorld?name=Ezequiel
+- http://localhost:9000/HelloWorld2/Ezequiel
 
 **Provar el Maneig d'Errors (CustomException)**
 - http://localhost:9000/HelloWorld?name=error
